@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+  <article class="card">
+    <img class="box" src="images/illustration-box-desktop.svg"/>
+    <picture class="card-graphics">
+      <source srcset="images/illustration-woman-online-desktop.svg" media="(min-width: 850px)">
+      <img class="graphic" src="images/illustration-woman-online-mobile.svg" alt="woman on the computer">
+    </picture>
+
+    <div class="question-container">
+      <h1>FAQ</h1>
+      <!-- question start -->
+      <section class="question show-answer">
+        <div class="question-title">
+        <h4>How many team members can I invite?</h4>
+        <button class="question-btn">
+          <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd" />
+          </svg>
+        </button>
+        </div>
+        <p class="question-answer">
+          You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.
+        </p>
+      </section>
+      <!-- question end -->
+      <!-- question start -->
+      <section class="question">
+        <div class="question-title">
+          <h4>What Is The Maximum File Upload Size?</h4>
+          <button class="question-btn">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <p class="question-answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </section>
+      <!-- question end -->
+      <!-- question start -->
+      <section class="question">
+        <div class="question-title">
+          <h4>How do I reset my password?</h4>
+          <button class="question-btn">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <p class="question-answer">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </p>
+      </section>
+      <!-- question end -->
+      <!-- question start -->
+      <section class="question">
+        <div class="question-title">
+          <h4>Can I cancel my subscription?</h4>
+          <button class="question-btn">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <p class="question-answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </section>
+      <!-- question end -->
+      <!-- question start -->
+      <section class="question">
+        <div class="question-title">
+          <h4>Do You Provide Additional Support?</h4>
+          <button class="question-btn">
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <p class="question-answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+      </section>
+      <!-- question end -->
+    </div>
+  </article>
+
+  <!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded by <a href="#">Julia Walton</a>.
+  </div> -->
+
+<script src="script.js"></script>
+</body>
+</html>
